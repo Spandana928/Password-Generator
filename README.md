@@ -42,7 +42,7 @@ password-generator/
 
 1️⃣ Clone the Repository
 
-git clone https://github.com/your-username/password-generator.git
+git clone https://github.com/Spandana928/password-generator.git
 cd password-generator
 
 2️⃣ Install Dependencies
@@ -55,10 +55,6 @@ npm start
 
 This will start the development server at http://localhost:3000/.
 
-📸 Screenshots
-
-
-![password output](https://github.com/user-attachments/assets/9c17ff78-4248-48ce-ac22-430cac047aca)
 
 
 📌 Usage

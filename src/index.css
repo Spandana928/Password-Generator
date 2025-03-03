@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Styles */
+body {
+  @apply bg-gray-900 text-white flex items-center justify-center min-h-screen;
+}
+
+.container {
+  @apply max-w-md mx-auto p-6 bg-gray-800 rounded-2xl shadow-lg;
+}
+
+.heading {
+  @apply text-2xl font-bold text-center mb-4;
+}
+
+.input-field {
+  @apply w-full p-2 bg-gray-700 text-white rounded-md border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+
+.button {
+  @apply w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md transition duration-200;
+}
+
+.checkbox-container {
+  @apply flex items-center space-x-2 my-2;
+}
+
+.generated-password {
+  @apply w-full bg-gray-700 text-white text-center p-3 rounded-md mt-3 border border-gray-600;
+}
